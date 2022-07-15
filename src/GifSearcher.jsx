@@ -13,7 +13,7 @@ export const GifSearcher = () => {
     return (
         <>  
             {/* Título */}
-            <h1>Buscador de gifts</h1>
+            <h1 className="main-title">Buscador de gifts</h1>
 
             {/* Buscador */}
             <AgregarBusqueda onAddBusqueda={ (valor) => addBusqueda(valor) } />

@@ -23,11 +23,13 @@ export const AgregarBusqueda = ({ onAddBusqueda, busquedaActual }) => {
     return (
         <form className="busqueda" onSubmit={ onSubmit }>
             <input 
+                className='cuador-busqueda'
                 type='text' 
-                onChange={ onChange } 
+                placeholder='Introduce la búsqueda...'
                 value={inputText} 
+                onChange={ onChange } 
             />
-            <input type='submit' value='Buscar' />
+            <input className='boton-busqueda' type='submit' value='Buscar' />
         </form>
     )
 }
