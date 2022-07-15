@@ -15,7 +15,8 @@ export const useGifts = (busqueda) => {
 
   return { 
     imagenes: gifts,
-    isLoading
+    isLoading,
+    setGifts
   }
 
 }

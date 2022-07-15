@@ -2,4 +2,7 @@ html, body {
   margin: auto;
   padding: auto;
   text-align: center;
+  background-color: hsl(229, 6%, 98%);
+  font-family: "Dank Mono", ui-monospace, monospace;
+  font-size: 0.9em;
 }
